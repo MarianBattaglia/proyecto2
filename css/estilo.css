@@ -1,0 +1,584 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@100;300;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.colorblanco {
+    color: white;
+}
+.coloresgrises {
+    background-color: #424242;
+    color: white;
+}
+.colorgris {
+    color: rgba(164, 165, 165, 0.836);
+}
+.coloramarillo {
+    background-color: yellow;
+    color: black;
+}
+.colorrojo {
+    background-color: red;
+    color: white;
+}
+.colorverde {
+    color: #328844;
+}
+.colorceleste {
+    background-color: #15A0B7;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.header {
+    background-color:  #353a40;
+    height: auto;
+}
+.container-fluid {
+    background-color: #353a40;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    padding: 10px;
+}
+.container-fluid img {
+    display: flex;
+    width: auto;
+    height: 90px;
+    padding-left: 5%;
+}
+.container-fluid h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding-right: 20%;
+    text-align:center;
+    margin: 0;
+    line-height:normal;
+
+}
+.listaheader {
+    display: flex;
+    padding-right: 20px;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+
+.listaheader li {
+    margin-right: 10px;
+    border-right: 1px solid white;
+    padding-right: 10px;
+    border-right: 0;
+}
+.listaheader a {
+    text-decoration: none;
+}
+.body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.Conferencia {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: left;
+}
+.Conferencia h1 {
+    margin-right: 15px;
+    padding-bottom: 2%;
+}
+.Conferencia p {
+    margin-left: 40%;
+    margin-right: 15px;
+    padding-bottom: 2%;
+}
+.Confe {
+    height: 600px;
+    background: linear-gradient(to right, rgba(12, 12, 12, 0.61), rgba(26, 25, 25, 0.60)), url(../assets/img/ba1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: medium;
+    display: flex;
+    color: white;
+    justify-content: center;
+    text-align: left;
+    align-items: flex-end;
+    flex-direction: column;
+    padding-left: 30px;
+}
+.Confe a {
+    display: inline-block;
+    text-align: center;
+    margin-left: 5px;
+    border-right: 1px solid white;
+    padding: 5px;
+    margin-right: 15px;
+    text-decoration: none;
+    border-radius: 6px;
+    background: #29A744;
+}
+.Confe h1{
+    margin-top: 20%;
+    margin-bottom: 0;
+    padding-bottom: 0%;
+}
+.Confe p{
+    margin-top: 0;
+    text-align: right;
+}
+.Confe a[href^='#Oradores'] {
+    background: none;
+    border-radius: 6px;
+    border: 2px solid #080000;
+}
+.Oradores {
+    text-align: center;
+    height: 120vh;
+    width: 100%;
+}
+.tarjetabloque {
+    height:auto;
+    width: 70%;
+    display: flex;
+    justify-content:space-evenly;
+    margin-left: 15%;
+}
+.tarjeta {
+    background-color: white;
+    display: inline-block;
+    width: 30%;
+    height: auto;
+    align-items: center;
+    text-align: left;
+    margin: 5px;
+    border: 1px solid gray;
+}
+.tarjeta img {
+    max-width: 100%;
+    height: auto;
+    
+}
+.tarjeta h4 {
+    display: inline-block;
+    border-radius: 5px solid #6d6b6b ;
+    margin-right: 5px;
+    padding: 0 5px;
+}
+.tarjeta h3{
+    text-align: left;
+}
+.tarjeta p {
+    width: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    margin-right: 20px;
+    margin-left: 7px;
+}
+.img{
+    width: max-content;
+}
+.Oradores h2 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: grey;
+}
+.Oradores h3 {
+    font-size: xx-large;
+}
+.mardelplata {
+    background-color: rgba(53, 58, 64);
+    border: 2px solid white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.mardelplata img {
+    width: 650px;
+    margin-right: 5px;
+    border: 2px solid #fafafa;
+}
+.bsas h2 {
+    color: white;
+    font-size: xx-large;
+    height: 5px;
+    padding-top: 30px;
+    margin-left: 10px;
+}
+.bsas p {
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin-left: 10px;
+}
+.bsas a {
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 6px;
+    border: 2px solid #fafafa;
+}
+
+.FormularioOrador {
+    display: inline-block;
+    height: 350px;
+    margin-left: 30%;
+    align-items: center;
+    font-size: small;
+    color: rgb(97, 97, 97);
+}
+.FormularioOrador h2{
+    text-align:center;
+    align-content: flex-start;
+    font-size: x-small;
+}
+.FormularioOrador h3{
+    font-size: xx-large;
+    margin-top: 7px;
+    text-align: center;
+    align-content: flex-start;
+    color: rgb(29, 29, 29);
+}
+.FormularioOrador h4{
+    text-align: left;
+    align-content: flex-start;
+    align-items: flex-start;
+    font-size: x-small;
+    padding-bottom: 2px;
+}
+.FormularioOrador p{
+    align-items: center;
+    align-content: flex-start;
+    padding-bottom: 10px;
+    margin-left: 10%;
+    font-size: x-small;
+}
+.input{
+    display: flex;
+    width: 100%;
+    height: 70%;
+    margin-bottom: 5px;    
+    justify-content: space-between;
+    border: 1px solid;
+    font-size: small;
+    color: rgba(148, 147, 147, 0.664);
+    
+}
+.input input {
+    text-align: left;
+    flex: 1;
+    height: 30%;
+    padding: 5px;
+    border-width: 1px; 
+    border-radius: 1px;
+}
+.input input #nombre{
+    margin-right: 5px;
+}
+.input input #email{
+    margin-right: 5px;
+}
+.input input #reset{
+    background-color: #96C93E;
+}
+.input1{
+    width: 100%;
+    text-align: center;
+}
+.input1 .btn-bggreen{
+    width: 100%;
+    background-color: #96C93E;
+}
+.input textarea {
+    width: 100%;
+    height: 70px;
+    border: 1px solid rgba(148, 147, 147, 0.664);
+    border-radius: 4px;
+    font-size: small;
+}
+.footer {
+    display:flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    height: 60px;
+    background-image: linear-gradient(to right, #1d4845, #144a4e, #0e4c58, #114d61, #1e4d69);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:medium;
+}
+/*Estilos de Tickets*/
+.main{
+    height: 120vh;
+    display: inline-block;
+    margin-left: 30%;
+}
+.container {
+    height: auto;
+    padding: 20px;
+    display: flex;
+    justify-content:center;
+    align-items:flex-start;
+    text-align: center;
+}
+.card {
+    margin-right: 5px;
+    width: 30%;
+    padding-bottom: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: 0.25rem;
+}
+.card-header1 {
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.5rem;
+    background-color: rgba(11, 8, 216, 0.815); 
+}
+.card-header2{
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.5rem;
+    background-color: rgba(8, 227, 243, 0.918);
+}
+.card-header3 {
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.5rem;
+    background-color: rgba(240, 132, 31, 0.918);
+}
+.card-celeste{
+    margin-right: 5px;
+    border: 1.5px solid rgba(11, 8, 216, 0.815);
+}
+.card-turuqesa{
+    margin-right: 5px;
+    border: 1.5px solid rgba(8, 227, 243, 0.918);
+}
+.card-naranja{
+    margin-right: 5px;
+    border: 1.5px solid rgba(240, 132, 31, 0.918);
+}
+.titulos {
+    line-height:0;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.titulos h3{
+    line-height:0;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: small;
+    font-weight: 400;
+}
+.titulos h2{
+    font-size: xx-large;
+    font-weight: 600;
+}
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+    margin-bottom: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+h2, .h2 {
+    font-size: medium;
+    font-weight:900;
+    line-height: 3;
+}
+h3, .h3 {
+    font-size: small;
+    margin-bottom: 10px;
+
+}
+h4, .h4 {
+    font-size: small;
+    display: inline;
+    text-align: center;
+}
+.propia{
+    display: block;
+}
+.col-md input[type="email" i] {
+    width: 100%;
+    height: 2.5rem;
+    
+}
+.button-custom{
+    background-color:#96C93E !important;
+    border: 0.5px;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-fluid {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .container-fluid img {
+        padding-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .container-fluid h1 {
+        padding: 10px;
+    }
+
+    .listaheader {
+        flex-direction: column;
+    }
+
+    .listaheader li {
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
+
+    .listaheader a {
+        display: block;
+        padding: 10px;
+    }
+    .Oradores{
+        height: auto;
+    }
+    .tarjetabloque {
+        margin: 0 0; /* Espaciado en los lados eliminado en dispositivos móviles */
+        display:inline-block; 
+    }
+
+    .tarjeta {
+        width: 100%; /* Ancho completo en dispositivos móviles */
+        margin-bottom: 20px; /* Espaciado inferior aumentado en dispositivos móviles */
+    }
+    .tarjeta img {
+        max-width: 100%; /* Asegurar que la imagen se ajuste al ancho de la tarjeta */
+        height: auto; /* Evitar que la imagen se deforme */
+    }
+    .tarjeta h4 {
+        margin-right: 0; /* Eliminar margen derecho en dispositivos móviles */
+        padding: 0 5px; /* Espaciado en los lados en dispositivos móviles */
+    }
+    .mardelplata {
+        flex-direction: column; /* Apilamos elementos en forma de columna */
+        align-items: center; /* Centramos elementos verticalmente */
+        padding: 10px; /* Añadimos espacio alrededor de los elementos */
+    }
+    
+    .mardelplata img {
+         width: 100%; /* Ocupa todo el ancho disponible */
+         margin: 0; /* Quitamos el margen derecho */
+    }
+    
+    .bsas {
+         text-align: center; /* Centramos el texto */
+    }
+    
+    .bsas h2 {
+        font-size: 24px; /* Ajustamos el tamaño del título */
+    }
+    
+    .bsas p {
+        padding: 10px 0; /* Añadimos espacio arriba y abajo del párrafo */
+    }
+    .FormularioOrador {
+        margin-left: 10%; /* Centramos el formulario horizontalmente */
+        width: 80%; /* Reducimos el ancho del formulario */
+    }
+    .footer {
+        flex-direction: column; /* Apilamos elementos en forma de columna */
+        height: auto; /* Ajustamos la altura según el contenido */
+        text-align: center; /* Centramos el texto horizontalmente */
+        padding: 10px 0; /* Añadimos espacio arriba y abajo */
+    }
+    /*responsive Tickets*/
+    .main {
+        margin: 0 auto; /* Centramos el contenido horizontalmente */
+        margin-left: 20%;
+    }
+    
+    .container {
+        flex-direction: column; /* Apilamos los elementos en forma de columna */
+        align-items: center; /* Centramos los elementos horizontalmente */
+        text-align: center;
+    }
+
+    .card {
+        margin: 10px auto;
+    }
+}
+@media (max-width: 480px) {
+    
+   .Oradores {
+        text-align: center;
+        background-color: #f2f2f2;
+        padding: 20px;
+    }
+
+    .Oradores h2 {
+        margin: 0;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        color: grey;
+    }
+
+    .Oradores h3 {
+        font-size: 24px;
+        margin: 10px;
+    }
+    .FormularioOrador {
+        width: 100%;
+        margin-left: 0;
+    }
+    /* Responsive Tickets*/
+    .main {
+        height: 150vh;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .card {
+        width: 100%;
+    }    
+    .form-control {
+        width: 80%;
+    }
+    .col-md input[type="email" i] {
+        width: 80%; /* Ocupa todo el ancho en tamaños pequeños (480px) */
+        height: 2.5rem;
+    }
+    .alert-primary{
+        width: 80%;
+    }
+    .button-custom {
+        display: inline;
+        width:30%;
+    }
+    .btn-form {
+        width: 80% !important;
+}
+
+
+
+
+

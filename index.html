@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto integrador Front | Marianela Battaglia</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+<header class="header">
+    <nav>
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img class="animate__animated animate__rubberBand animate__delay-0.5" src="./assets/img/codoacodo.png" alt="Logo de coco a codo 4.0">
+        </a>
+        <h1 class="animate__rubberBand">Conf Bs As</h1>
+        
+            <ul class="listaheader animate__animated animate__bounce animate__delay-2s">
+                <li><a class="colorblanco" href="#Conferencia">La conferencia</a></li>
+                <li><a class="colorgris" href="#Oradores">Los oradores</a></li>
+                <li><a class="colorgris" href="#Lugaryfecha">El lugar y la fecha</a></li>
+                <li><a class="colorgris" href="#FormularioOrador">Conviértete en orador</a></li>
+                <li><a class="colorverde" href="./pages/tickets.html">Comprar tickets</a></li>
+            </ul>
+        </div>
+        </nav>
+    </section>
+</header>
+<main>
+    <section class="Conferencia">
+        <div class="Confe">
+            <h1 class="animate__animated animate__zoomIn">Conf Bs As</h1>
+            <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y
+                experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a miembros del
+                evento, a otros estudiantes de Codo a Codo y a los oradores de primer nivel que tenemos para ti. Te
+                esperamos!</p>
+            <div class="confea">
+                <a class="colorblanco" href="#Oradores">Quiero ser orador</a>
+                <a class="colorblanco" href="./pages/tickets.html">Comprar tickets</a>
+            </div>
+        </div>
+    </section>
+    <section id="Oradores" class="Oradores">
+        <div>
+            <h2>CONOCE A LOS</h2>
+            <h3>ORADORES</h3>
+        </div>
+        <div class="tarjetabloque">
+            <div class="tarjeta">
+                <img src="./assets/img/steve.jpg" alt="Imagen de Steve Jobs "width="600">
+                <h4 class="coloramarillo">JavaScript</h4>
+                <h4 class="colorceleste">React</h4>
+                <h3>Steve Jobs</h3>
+                <p>Steve Jobs, un empresario, diseñador industrial, magnate empresarial, propietario de medios e
+                    inversor estadounidense. Fue cofundador y presidente ejecutivo de Apple.</p>
+            </div>
+            <div class="tarjeta">
+                <img src="./assets/img/bill.jpg" alt="Imagen de Bill Gates">
+                <h4 class="coloramarillo">Sistemas Operativos</h4>
+                <h4 class="colorceleste">C++</h4>
+                <h3>Bill Gates</h3>
+                <p>Un desarrollador de software, inversor, autor y filántropo estadounidense. Es cofundador
+                    de Microsoft. Fue uno de los principales empresarios de la revolución de las microcomputadoras de
+                    las décadas de 1970 y 1980.</p>
+            </div>
+            <div class="tarjeta">
+                <img src="./assets/img/ada.jpeg" alt="Imagen de Ada Lovelace">
+                <h4 class="coloresgrises">Algoritmos</h4>
+                <h4 class="colorrojo">Cobol</h4>
+                <h3>Ada Lovelace</h3>
+                <p>Una matemática y escritora británica. Fue la primera en reconocer que la máquina analítica tenía
+                    aplicaciones más allá del cálculo puro y en haber publicado lo que se reconoce hoy como el primer
+                    algoritmo destinado a ser procesado por una máquina, por lo que se le considera como la primera
+                    programadora de ordenadores.</p>
+            </div>
+        </div>
+    </section>
+    <section id="Lugaryfecha" class="mardelplata">
+        <img src="./assets/img/honolulu.jpg" alt="Mar del Plata">
+        <div class="bsas">
+            <h2>Bs. As. - Octubre </h2>
+            <p>Buenos Aires es la provincia y localidad más grande del estado de Argentina. En los Estados Unidos, Honolulu
+                es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre Honolulu se refiere al
+                área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una
+                ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600 km2 de superficie).</p>
+            <a href="./pages/404.html">Conoce más</a>
+        </div>
+    </section>
+    <section id="FormularioOrador" class="FormularioOrador">
+        <h2>CONVIERTE EN UN</h2>
+        <h3>ORADOR</h3>
+        <p>Regístrate como orador para dar una presentación Ignite. ¡Cuéntanos de qué quieres hablar!</p>
+        <form action="./pages/404.html" method="get">
+            <div class="input">
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+                <input type="text" id="apellido" name="apellido" placeholder="Apellido" required>
+            </div>
+            <div class="input">
+                <input type="email" id="email" name="email" placeholder="Ejemplo@gmail.com">
+                <input type="password" placeholder="Contraseña">
+            </div>
+            <div class="input">
+                <textarea name="comentario" id="comentario" cols="50" rows="5" placeholder="Sobre qué quieres hablar?" required></textarea>
+            </div>
+            <h4>Recuerda incluir un título para tu charla</h4>
+            <div class="input1">
+                <button class="btn btn-bggreen" type="button">Enviar Formulario</button style="background-color: #96C93E;">
+            </div>
+        </form>
+    </section>
+</main>
+<footer>
+    <section class="footer">
+        <li>Preguntas frecuentes </li>
+        <li>Contáctanos</li>
+        <li>Prensa</li>
+        <li>Conferencia</li>
+        <li>Términos y condiciones</li>
+        <li>Privacidad</li>
+        <li>Estudiantes</li>
+    </section>
+</footer>
+<script src="./js/bootstrap.bundle.min.js">
+</script>
+</body>
+</html>
+            
+            
+            
